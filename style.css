@@ -1,0 +1,177 @@
+/* Nota sobre tipografía: las variantes regular, medium, semibold y bold de la tipografía Work Sans, se corresponden con los pesos 400, 500, 600 y 700*/
+
+/*ESTILOS GENERALES*/
+
+
+body {
+    font-family: 'Inter';
+    background-color: #E0E0E0;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+/*section{
+    border-bottom: solid 1px ;
+}*/
+
+/*HEADERS*/
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 400;
+}
+
+/*h4 {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 600;
+}*/
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.colors{
+    display: flex;
+}
+.palette {
+    margin: 20px 10px 40px 10px;
+    width: 100px;
+    height: 90px;
+    text-align: center;
+    padding-top: 10px;
+    border: solid 0.5px;
+}
+.headerscontent{
+    margin-bottom: 100px;
+}
+.mainButtons{
+    margin-top: 20px;
+}
+.buttonsContent{
+    display: flex;
+}
+/*UTILIDADES*/
+.sectionName {
+    font-weight: 600;
+}
+
+/*COLORES DE FONDO*/
+.backgroundBlack{
+    background-color: #1a171b;
+}
+.backgroundGray{
+    background-color: #828282;
+}
+.backgroundLightGray{
+    background-color: whitesmoke;
+}
+.backgroundWhite{
+    background-color: #FFFFFF;
+}
+.backgroundAlmond{
+    background-color: #E0CBB5;
+}
+
+/*COLORES*/
+.colorBlack{
+    color: #1a171b;
+}
+.colorGray{
+    color: #828282;
+}
+.colorWhite{
+    color: #FFFFFF;
+}
+.colorAlmond{
+    color: #E0CBB5;
+}
+
+/*BORDES FINOS*/
+.borderBlack{
+    border: solid 0.5px #1a171b;
+}
+
+/*BOTONES*/
+.button {
+    margin: 20px 10px 40px 10px;
+    width: 135px;
+    height: 25px;
+    border: solid 0.5px #1a171b;
+    background-color: #FFFFFF;
+}
+
+.actionMainButton {
+    font-family: 'Inter';
+    font-size: 16px;
+    margin: 20px 10px 40px 10px;
+    width: 135px;
+    height: 25px;
+    border: solid 0.5px #1a171b;
+    background-color: #FFFFFF;
+}
+.actionSecondaryButton {
+    font-family: 'Inter';
+    font-size: 16px;
+    margin: 20px 10px 40px 10px;
+    width: 135px;
+    height: 25px;
+    color: white;
+    border: solid 0.5px white;
+    background-color: #1a171b;
+}
+.buttonLinkMainButton{
+    margin: 20px 10px 40px 10px;
+    width: 135px;
+    height: 25px;
+    text-align: center;
+    color: #1a171b;
+    text-decoration: underline;
+}
+.buttonLinkSecondaryButton{
+    margin: 20px 10px 40px 10px;
+    width: 135px;
+    height: 25px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: underline;
+}
+/*ESTILOS ESPECÍFICOS DEL ABOUT*/
+header{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1.25rem;
+}
+header p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+
