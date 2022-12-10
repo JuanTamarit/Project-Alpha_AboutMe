@@ -208,6 +208,9 @@ p {
     display:grid;
     align-content: center;
     gap: 2rem;
+
+    transform: var(--state-menu);
+
     
 }
 .navLink {
@@ -269,7 +272,6 @@ article h1::before {
     float: left;
     margin: 8px 5px 0 0;
 
-    transform: var(--state-menu);
 }
 article h3 {
     margin-top: 1rem;
