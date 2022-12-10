@@ -9,6 +9,8 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -158,12 +160,18 @@ p {
     text-decoration: underline;
 }
 /*ESTILOS ESPECÍFICOS DEL ABOUT*/
-header{
+.headerFixed{
     padding-top: 1rem;
     padding-left: 2rem;
     padding-bottom: 1.25rem;
     position: fixed;
     width: 100vw;
+}
+.headerSpace{
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1.25rem;
+    width: 1;
 }
 header p{
     margin-top: 0px;
