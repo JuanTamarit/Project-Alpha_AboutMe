@@ -171,6 +171,16 @@ h1{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.firstSection{
+    display: flex;
+}
+
+.firstSection img {
+    width: auto;
+    height: 100vh;
+}
+
+
 
 
 
