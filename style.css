@@ -162,7 +162,6 @@ p {
 /*ESTILOS ESPECÍFICOS DEL ABOUT*/
 .headerFixed{
     padding-top: 1rem;
-    padding-left: 2rem;
     padding-bottom: 1.25rem;
     position: fixed;
     width: 100vw;
@@ -228,7 +227,17 @@ p {
     transition: .4s transform;
 }
 .navIcon{
+    
+    height: 40px;
     width: 40px;
+}
+a.navHamburguer{
+    display: flex;
+    align-items: center;
+}
+a.navClose{
+    display: flex;
+    align-items: center; 
 }
 .headerSpace{
     padding-top: 1rem;
@@ -281,10 +290,8 @@ article p{
     font-size: 20px;
 }
 .container{
-    margin: 0 auto;
-    width: 90%;
-    max-width: 1200px;
-    overflow: hidden;
+    padding-left: 1.5rem ;
+    padding-right: 2rem;
 }
 
 
