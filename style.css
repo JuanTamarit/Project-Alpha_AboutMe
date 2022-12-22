@@ -2,6 +2,11 @@
 
 /*ESTILOS GENERALES*/
 
+*,
+*:after,
+*:before {
+box-sizing: border-box;
+}
 
 body {
     font-family: 'Inter';
@@ -9,8 +14,8 @@ body {
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    display: flex;
-    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 
@@ -165,6 +170,7 @@ p {
     padding-bottom: 1.25rem;
     position: fixed;
     width: 100vw;
+    
 
 }
 /*si aplico este display grid los iconos se me ponen mal*/
@@ -239,12 +245,12 @@ a.navClose{
     display: flex;
     align-items: center; 
 }
-.headerSpace{
+/*.headerSpace{
     padding-top: 1rem;
     padding-left: 2rem;
     padding-bottom: 1.25rem;
     width: 1;
-}
+}*/
 header p{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -254,12 +260,11 @@ h1{
     margin-bottom: 0px;
 }
 .firstSection{
-    display: flex;
 }
 
 .firstSection img {
     width: auto;
-    height: 87.6vh;
+    height: 100vh;
 }
 
 article {
@@ -287,9 +292,7 @@ article p{
     margin-bottom: 0px;
     font-size: 20px;
 }
-.señal {
 
-}
 .container{
     padding-left: 1.5rem ;
     padding-right: 2rem;
