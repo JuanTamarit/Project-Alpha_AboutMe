@@ -16,6 +16,7 @@ body {
     margin-right: 0px;
     box-sizing: border-box;
     margin: 0;
+    
 }
 
 
@@ -260,7 +261,15 @@ h1{
     margin-bottom: 0px;
 }
 .firstSection{
-}
+    
+}/*imagen colocada como background-image*/
+/*.imgBox{
+    background-image: url(img/RetratoJuan\ Tamarit_02.jpg);
+    background-size: 400px;
+    width: auto;
+    height: 600px;
+    background-repeat: no-repeat;
+}*/
 
 .firstSection img {
     width: auto;
