@@ -306,6 +306,24 @@ article p{
     padding-left: 1.5rem ;
     padding-right: 2rem;
 }
+.swiper {
+    width: 532px;
+    height: 400px;
+  }
+  .swiper-slide {
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10px;
+    padding-bottom: 10px;
+  }
+
+  .img1 {
+    background-image: url(/img/cropped/porfolio_CD.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+  }
 
 
 
