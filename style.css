@@ -263,13 +263,17 @@ h1{
 .firstSection{
     
 }/*imagen colocada como background-image*/
-/*.imgBox{
-    background-image: url(img/RetratoJuan\ Tamarit_02.jpg);
-    background-size: 400px;
-    width: auto;
-    height: 600px;
+
+.imgBox{
+    background-image: url(img/Retrato_03.jpg);
+    background-size: auto 92vh;
+    background-position: bottom center;
     background-repeat: no-repeat;
-}*/
+    
+    
+    width: 393px;
+    height: 851px;
+}
 
 .firstSection img {
     width: auto;
