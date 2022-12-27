@@ -269,8 +269,6 @@ h1{
     background-size: auto 92vh;
     background-position: bottom center;
     background-repeat: no-repeat;
-    
-    
     width: 393px;
     height: 851px;
 }
@@ -281,7 +279,7 @@ h1{
 }
 
 article {
-padding: 2rem 8rem 0rem 4rem;   
+padding: 2rem 2rem 0rem 2rem;   
 }
 
 article h1::before {
@@ -311,8 +309,11 @@ article p{
     padding-right: 2rem;
 }
 .swiper {
-    width: 532px;
-    height: 400px;
+    width: 100vw;
+    height: 393px;
+    /*aspect ratio 3:2*/
+    /*width: 532px;
+    height: 400px;*/
   }
   .swiper-slide {
     color: white;
@@ -326,6 +327,7 @@ article p{
     background-image: url(/img/cropped/porfolio_CD.jpg);
     background-repeat: no-repeat; 
     background-size: cover;
+    background-position: 25% center;
     
   }
 
