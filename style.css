@@ -123,19 +123,17 @@ p {
 
 /*BOTONES*/
 .button {
-    margin: 20px 10px 40px 10px;
-    width: 135px;
-    height: 25px;
+    width: 50vw;
+    height: 5vh;;
     border: solid 0.5px #1a171b;
     background-color: #FFFFFF;
+    align-self: center;
 }
 
 .actionMainButton {
     font-family: 'Inter';
     font-size: 16px;
-    margin: 20px 10px 40px 10px;
-    width: 135px;
-    height: 25px;
+    
     border: solid 0.5px #1a171b;
     background-color: #FFFFFF;
 }
@@ -260,9 +258,7 @@ h1{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-.firstSection{
-    
-}/*imagen colocada como background-image*/
+/*imagen colocada como background-image*/
 
 .imgBox{
     background-image: url(img/Retrato_03.jpg);
@@ -282,14 +278,17 @@ article {
 padding: 2rem 2rem 0rem 2rem;   
 }
 
+
 article h1::before {
     content:'↓';
     font-weight: 400;
 }
+
 .navLinks h1::before {
     content: "";
     display: block;
-    background: url(/img/flechaRightInterRegular28.svg) no-repeat;
+    /*flechita anterior*/
+    /*background: url(/img/flechaRightInterRegular28.svg) no-repeat;*/
     width: 20px;
     height: 20px;
     float: left;
@@ -337,6 +336,22 @@ article p{
 
   .swiper-button-next::after {
     color: #707070;
+  }
+
+  .thirdSection h1 {
+    margin-bottom: 1rem;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1.5rem;
+
+  }
+
+  .navLinks h1 {
+    font-weight: 400;;
   }
 
 
