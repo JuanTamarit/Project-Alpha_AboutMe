@@ -346,6 +346,7 @@ article p{
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     gap: 1.5rem;
 
   }
@@ -353,6 +354,19 @@ article p{
   .navLinks h1 {
     font-weight: 400;;
   }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+
+  .rrssitem {
+    list-style: none;
+}
+
+
 
 
 
