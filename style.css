@@ -404,8 +404,16 @@ a {
         background-size: auto 92vh;
         background-position: bottom center;
         background-repeat: no-repeat;
-        width: 413px;
+        width: 38vw;
         height: 100vh;
+    }
+
+    .firstSection {
+        display:flex;
+    }
+
+    #sobremi {
+        width: 62vw;
     }
 }
 
