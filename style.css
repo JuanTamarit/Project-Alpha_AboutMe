@@ -130,6 +130,7 @@ p {
     border: solid 0.5px #1a171b;
     background-color: #FFFFFF;
     align-self: center;
+    
 }
 
 .actionMainButton {
@@ -381,6 +382,35 @@ article p{
     justify-content: right;
     text-align: right;
 }
+
+a {
+    color: black;
+}
+
+@media screen and (min-width:394px) {
+    .imgBox{
+        background-image: url(img/Retrato_03.jpg);
+        background-size: auto 92vh;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 851px;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    .imgBox{
+        background-image: url(img/Retrato_03.jpg);
+        background-size: auto 92vh;
+        background-position: bottom center;
+        background-repeat: no-repeat;
+        width: 413px;
+        height: 100vh;
+    }
+}
+
+
+
 
 
 
