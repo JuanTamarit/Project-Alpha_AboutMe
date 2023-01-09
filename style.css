@@ -396,6 +396,12 @@ a {
     z-index: 2;
 }
 
+@media screen and (max-width:393px) {
+    .linktrabajos {
+        display:none
+    }
+}
+
 @media screen and (min-width:394px) {
     .imgBox{
         background-image: url(img/Retrato_03.jpg);
@@ -405,12 +411,20 @@ a {
         width: auto;
         height: 851px;
     }
+
+@media screen and (min-width: 394px) and (max-width: 1079px){
+    .linktrabajos {
+        display:none;
+    }
 }
 
 @media screen and (min-width:1080px) {
     /*DESACTIVAR EL SCROLL*/ 
     /*body {
         overflow-y: hidden;
+    }*/
+    /*.linktrabajos {
+        display: contents;
     }*/
     .imgBox{
         background-image: url(img/Retrato_03.jpg);
@@ -430,7 +444,7 @@ a {
         padding: 122px 32px 0;
     }
     #competencias {
-        width: 500px;
+        width: 62vw;
     }
     .textostablet {
         display: flex;
@@ -441,13 +455,19 @@ a {
         display: none;
     }
 
-
-    .linktrabajos {
+    a {
         text-decoration: none;
     }
-    .linktrabajos:hover {
-        text-decoration: underline;
+    .linktrabajos {
+        padding-top: 0px;
     }
+   
+
+
+    
+    /*.linktrabajos:active {
+        text-decoration: underline;
+    }*/
 
     
     
