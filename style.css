@@ -461,6 +461,32 @@ a {
     .linktrabajos {
         padding-top: 0px;
     }
+
+    .swiper {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .fourthSection {
+        width: 100vw;
+       height: 100vh;
+        padding-top: 90px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        flex: 1;
+    }
+    
+
+    #porqueyo {
+        padding: 32px 64px 0px 64px;
+        flex: 1;
+    }
+    .buttons {
+        flex: 1;;
+    }
    
 
 
