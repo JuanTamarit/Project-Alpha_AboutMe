@@ -485,7 +485,8 @@ a {
         flex: 1;
     }
     .buttons {
-        flex: 1;;
+        flex: 1;
+        justify-content: center;
     }
    
 
