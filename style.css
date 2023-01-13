@@ -486,7 +486,7 @@ a {
     }
 }
 
-/*@media screen and (min-width:394px) {
+@media screen and (min-width:394px) {
     .imgBox{
         background-image: url(img/Retrato_03.jpg);
         background-size: auto 92vh;
@@ -494,7 +494,7 @@ a {
         background-repeat: no-repeat;
         width: auto;
         height: 851px;
-    }*/
+    }
 
 @media screen and (min-width: 394px) and (max-width: 1079px){
     .linktrabajos {
